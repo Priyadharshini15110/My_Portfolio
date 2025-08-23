@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login • Priya</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="login-page">
+  <main class="login-wrapper">
+    <form class="login-card" action="php/login.php" method="POST">
+      <h1>Login</h1>
+      <p class="muted">Use your credentials to continue</p>
+      <input type="text" name="username" placeholder="Username" required />
+      <input type="password" name="password" placeholder="Password" required />
+      <button type="submit" class="btn primary">Login</button>
+      <p class="tip">Default: <b>admin / admin123</b> (change in DB)</p>
+    </form>
+  </main>
+</body>
+</html>
